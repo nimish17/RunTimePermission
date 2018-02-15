@@ -5,6 +5,7 @@
 
 requestPermission(new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, new PermissionCallback() {
             @Override
+            
             public void onGranted() {
 
             }
