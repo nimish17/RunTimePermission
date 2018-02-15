@@ -2,6 +2,7 @@ package com.runtimepermission;
 
 import android.os.Bundle;
 
+
 public class MainActivity extends RunTimePermission {
 
     @Override

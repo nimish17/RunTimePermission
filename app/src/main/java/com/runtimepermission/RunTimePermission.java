@@ -12,7 +12,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 
-
 public class RunTimePermission extends AppCompatActivity {
 
     private PermissionCallback callback;
