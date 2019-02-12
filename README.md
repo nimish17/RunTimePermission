@@ -3,15 +3,10 @@
 1) Extend RunTimePermission in your Activity or Parent Activity(BaseActivity)
 2) Pass required permission in string array
 
-        requestPermission(new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, new PermissionCallback() {
-
-            @Override
-            public void onGranted() {
-
+        requestPermission(arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION)) { isGranted ->
+            if (isGranted) {
+                println("Permission granted")
+            } else {
+                println("Permission denied")
             }
-
-            @Override
-            public void onDenied() {
-
-            }
-        });
+        }
