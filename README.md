@@ -4,7 +4,6 @@
 2) Pass required permission in string array
 
     requestPermission(arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION)) { isGranted ->
-    
         if (isGranted) {
             println("Permission granted")
         }
