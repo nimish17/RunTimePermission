@@ -1,6 +1,5 @@
 package com.runtimepermission
 
-import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -11,7 +10,6 @@ import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.text.Html
 
-@SuppressLint("Registered")
 open class RunTimePermission : AppCompatActivity() {
 
     private var callback: ((Boolean) -> Unit)? = null
